@@ -108,32 +108,19 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/checkbox-vue"
                     field=" meu input"/>
-                <header
-                    jcr:created="{Date}2022-04-29T17:35:22.583-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-29T18:15:49.154-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="vue/components/header"
-                    text="404 not found">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="19"/>
-                    </cq:responsive>
-                </header>
-                <main
+                <notfound
                     jcr:created="{Date}2022-04-29T17:57:26.446-03:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2022-04-29T19:07:31.190-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="vue/components/main"
-                    buttonLabel="Back to homepage"
+                    sling:resourceType="vue/components/notfound"
+                    btn="Back to homepage"
+                    header="404 not found"
+                    altImg="404"
                     field="I have bad news for you"
-                    imageUrl="/content/dam/vue/espantalho.png"
-                    text="The page you are looking for might be removed or is temporarily unavailable"
+                    img="/content/dam/vue/espantalho.png"
+                    content="The page you are looking for might be removed or is temporarily unavailable"
                     title="I have bad news for you">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -146,7 +133,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         fileReference="/content/dam/vue/espantalho.png"/>
-                </main>
+                </notfound>
                 <footer
                     jcr:created="{Date}2022-04-29T17:44:42.265-03:00"
                     jcr:createdBy="admin"
@@ -154,7 +141,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/footer"
-                    text="created by username - devChallenges.io">
+                    text="created by username (somewhere) updated by Jimmy Porto - devChallenges.io">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
