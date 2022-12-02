@@ -141,7 +141,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/footer"
-                    text="created by username (somewhere) updated by Jimmy Porto - devChallenges.io">
+                    text="created by username (someone) updated by Jimmy Porto - devChallenges.io">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
